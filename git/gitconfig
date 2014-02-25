@@ -1,10 +1,16 @@
 [user]
-	name = John Else
-	email = john.else@citrix.com
+name = Siddharth Vinothkumar 
+email = siddharth.vinothkumar@citrix.com
 [core]
-	editor = vim
-	excludesfile = ~/.gitignore_global
+editor = vim
+excludesfile = ~/.gitignore_global
 [color]
-	ui = true
+ui = true
 [alias]
-	myclone = !sh -c 'git clone "git://github.com/xapi-project/$1" && cd "$1" && git remote rename origin xapi-project && git remote add johnelse "git@github.com:johnelse/$1"' -
+myclone = !sh -c 'git clone "git://github.com/xapi-project/$1" && cd "$1" && git remote rename origin xapi-project && git remote add siddharthv "git@github.com:siddharthv/$1"' -
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 490x195+808+497
+	history-view-vpane-position = 635
+	main-window-view = HistoryView
+	file-view-vpane-position = 809
