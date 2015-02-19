@@ -1,18 +1,17 @@
 [ui]
-username = John Else <john.else@citrix.com>
+username = Siddharth Vinothkumar <siddharth.vinothkumar@citrix.com>
 ignore = ~/.hgignore
 
-[diff]
-nodates = 1
-
 [extensions]
-hgk =
-histedit =
+#reviewboard = /home/xenhg/mercurial-reviewboard
 mq =
-pager =
 rebase =
-hgext.crecord = /home/johnel/.hgext/crecord/crecord
-hgext.hgcollapse = /home/johnel/.hgext/hgcollapse/hgext/collapse.py
+transplant =
+histedit =
+
+[reviewboard]
+server = http://rb.xs.citrite.net
+user = siddharthv
 
 [pager]
 pager = less
@@ -20,3 +19,12 @@ pager = less
 [format]
 dotencode = 0
 usefncache = 0
+
+[trusted]
+users = xenhg
+groups = xendev
+
+[smtp]
+host = smtp.uk.xensource.com
+port = 25
+tls = false

@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# We want to ensure these directories exist
-DIRS=(
-    "$HOME/bin"
-    "$HOME/.xmonad"
-)
-
 # Config files within the repository
 FILE_PATHS=(
     "$HOME/.dotfiles/bash/bashrc"
