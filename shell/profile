@@ -12,7 +12,7 @@
 export TERM=xterm-color
 
 # Locations
-export LOC=/local/johnel-files
+export LOC=/local/siddharthv-files
 export ISSUES=$LOC/issues
 export CARBON=/local/spare/hg/carbon
 
@@ -46,7 +46,7 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 if [ -z "$TMUX" ]; then
   PATH=$PATH:/usr/groups/xencore/systems/bin
   PATH=$PATH:/usr/groups/xenrt/production/share/control
-  PATH=$PATH:~/Scripts/johnel
+  PATH=$PATH:~/Scripts/siddharthv
   PATH=$PATH:$CARBON/trunk-ring3/support.hg/bugget
   PATH=$PATH:$LOC/bin
   PATH=$PATH:/usr/local/installed/opam/bin
@@ -67,3 +67,6 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+# OPAM configuration
+. /home/siddharthv/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true

@@ -9,7 +9,7 @@ servers = (
   }
 );
 
-chatnets = { FreeNode = { type = "IRC"; nick = "johnelse"; }; };
+chatnets = { FreeNode = { type = "IRC"; nick = "siddharthv"; }; };
 
 channels = (
   {
@@ -225,15 +225,15 @@ statusbar = {
 };
 settings = {
   core = { 
-    real_name = "John Else";
-    user_name = "johnel";
-    nick = "johnel";
+    real_name = "Siddharth Vinothkumar";
+    user_name = "siddharthv";
+    nick = "siddharthv";
   };
   "fe-common/core" = { autolog = "yes"; };
   "fe-text" = { actlist_sort = "refnum"; };
   "perl/core/scripts" = {
     tmux_away_active = "yes";
-    tmux_away_nick = "johnel_away";
+    tmux_away_nick = "siddharthv_away";
   };
 };
 logs = { };

@@ -80,12 +80,12 @@ function cifs_mount() {
   MOUNTPOINT=$2
   # Unmount if anything is already mounted.
   mountpoint -q $MOUNTPOINT && sudo umount $MOUNTPOINT
-  sudo mount.cifs $SHARE $MOUNTPOINT -o user=johnel dom=citrite.net
+  sudo mount.cifs $SHARE $MOUNTPOINT -o user=siddharthv dom=citrite.net
 }
 
 function my_cifs_mount() {
   MOUNTPOINT=$1
-  cifs_mount //lonpfs01/johnel$ $MOUNTPOINT
+  cifs_mount //lonpfs01/siddharthv$ $MOUNTPOINT
 }
 
 function lock_reason() {
